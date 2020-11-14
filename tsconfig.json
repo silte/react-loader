@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "outDir": "./lib",
+      "target": "es2020",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "removeComments": true,
+      "declaration": false,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "typeRoots": [
+        "node_modules/@types",
+        "index.d.ts"
+      ]
+    },
+    "include": [
+      "./src/**/*.tsx",
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
